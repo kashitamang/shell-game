@@ -26,8 +26,12 @@ img {
     position: relative;
 }
 
+.shell img {
+    
+}
 .chick {
     display: none;
+    transition: ease-in-out;
 }
 
 .reveal {

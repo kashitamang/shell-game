@@ -1,9 +1,9 @@
 Todo:
 
--draw wireframe
--lay out html document and add HTML elements: shells, buttons, text, divs, spans, and balls under each shell 
--style the css to reveal the ball under each shell using a 'reveal class'
--add WIGGLES to ap.js
+✅ draw wireframe
+✅lay out html document and add HTML elements: shells, buttons, text, divs, spans, and balls under each shell 
+✅style the css to reveal the ball under each shell using a 'reveal class'
+-add WIGGLES to app.js
 -validate and test 
 -add extra styling 
 
