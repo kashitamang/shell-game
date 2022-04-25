@@ -1,1 +1,9 @@
 /* add home page styles here */
+h4 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
