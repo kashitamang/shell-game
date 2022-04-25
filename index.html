@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>shell game</title>
 </head>
 
 <body>
     <header>
         <div class="gutter-right logo">
-            <img src="./assets/big-logo.png" />
         </div>
     </header>
     <main>
@@ -28,20 +27,31 @@
             </h4>
             <div class="shells">
                 <div class="shell" id="shell-1">
+                    <div class="chick">
+                        <img src="./baby-gc29c2a29e_640.png" id="chick-img">
+                    </div>
                     <img src="./egg-g14e292808_640.png" id="shell-1-img">
-                    <div class="chick"></div>
                     <button id="shell-button-1">check shell</button>
                 </div>
                 <div class="shell" id="shell-2">
-                    <div class="chick"></div>
+                    <div class="chick">
+                        <img src="./baby-gc29c2a29e_640.png" id="chick-img">
+                    </div>
                     <img src="./egg-g14e292808_640.png" id="shell-2-img">
                     <button id="shell-button-2">check shell</button>
                 </div>
                 <div class="shell" id="shell-3">
-                    <div class="chick"></div>
+                    <div class="chick">
+                        <img src="./baby-gc29c2a29e_640.png" id="chick-img">
+                    </div>
                     <img src="./egg-g14e292808_640.png" id="shell-3-img">
                     <button id="shell-button-3">check shell</button>
                 </div>
+            </div>
+            <div class="results">
+                wins: <span id="wins">0</span>
+                losses: <span id="losses">0</span>
+                total: <span id="totals">0</span>
             </div>
         </section>
     </main>

@@ -7,3 +7,29 @@ img {
     width: 300px;
 }
 
+#chick-img {
+    width: 100px;
+}
+
+.shells {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shell {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.chick {
+    display: none;
+}
+
+.reveal {
+    display: block;
+}
