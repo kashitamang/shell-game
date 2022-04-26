@@ -4,13 +4,12 @@ h4 {
 }
 
 img {
-    width: 300px;
+    width: 200px;
 }
 
 #chick-img {
-    width: 400px;
+    width: 100px;
 }
-
 .shells {
     margin-top: 40px;
     display: flex;
