@@ -24,7 +24,7 @@ h4 {
 }
 
 .shell.reveal img {
-    transform: translateY(-70px);
+    transform: translateY(-60px);
     z-index: 20;
 }
 

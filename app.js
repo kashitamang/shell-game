@@ -29,22 +29,22 @@ let losses = 0;
 
 button1.addEventListener('click', () => {
   //reset all shells on click
-    chick1.classList.add('chick');
-    chick2.classList.add('chick');
-    chick3.classList.add('chick');
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
 //randomizes number to choose shell 
     const randomShell = Math.ceil(Math.random() * 3);
 //validate 
     console.log(randomShell);
 //decide which shell chick is under 
     if (randomShell === 1) {
-        chick1.classList.remove('chick');
+        shell1.classList.add('reveal');
         wins++;
     } else if (randomShell === 2) {
-        chick2.classList.remove('chick');
+        shell2.classList.add('reveal');
         losses++;
     } else {
-        chick3.classList.remove('chick');
+        shell3.classList.add('reveal');
         losses++;
     }
 //update the wins/ loss/ totals
@@ -57,21 +57,22 @@ button1.addEventListener('click', () => {
 
 button2.addEventListener('click', () => {
     //reset all shells on click
-    chick1.classList.add('chick');
-    chick2.classList.add('chick');
-    chick3.classList.add('chick');
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
   //randomizes number to choose shell 
     const randomShell = Math.ceil(Math.random() * 3);
+  //validate 
     console.log(randomShell);
   //decide which shell chick is under 
     if (randomShell === 2) {
-        chick2.classList.remove('chick');
+        shell2.classList.add('reveal');
         wins++;
     } else if (randomShell === 1) {
-        chick1.classList.remove('chick');
+        shell1.classList.add('reveal');
         losses++;
     } else {
-        chick3.classList.remove('chick');
+        shell3.classList.add('reveal');
         losses++;
     }
   //update the wins/ loss/ totals
@@ -79,24 +80,26 @@ button2.addEventListener('click', () => {
     lossesSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
 });
-
 //set event listeners to listed for clicks on button 3
+
 button3.addEventListener('click', () => {
     //reset all shells on click
-    chick1.classList.add('chick');
-    chick2.classList.add('chick');
-    chick3.classList.add('chick');
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
   //randomizes number to choose shell 
     const randomShell = Math.ceil(Math.random() * 3);
+  //validate 
+    console.log(randomShell);
   //decide which shell chick is under 
     if (randomShell === 3) {
-        chick3.classList.remove('chick');
+        shell3.classList.add('reveal');
         wins++;
     } else if (randomShell === 2) {
-        chick2.classList.remove('chick');
+        shell2.classList.add('reveal');
         losses++;
     } else {
-        chick1.classList.remove('chick');
+        shell1.classList.add('reveal');
         losses++;
     }
   //update the wins/ loss/ totals
