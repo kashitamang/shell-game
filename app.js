@@ -2,9 +2,9 @@
 
 //all shells
 
-const shell1 = document.getElementById('shell-1');
-const shell2 = document.getElementById('shell-2');
-const shell3 = document.getElementById('shell-3');
+const chick1 = document.getElementById('chick-1');
+const chick2 = document.getElementById('chick-2');
+const chick3 = document.getElementById('chick-3');
 
 //all buttons 
 
@@ -23,22 +23,30 @@ const totalSpan = document.getElementById('total');
 let wins = 0;
 let losses = 0;
 
-console.log();
 
 
 // set event listeners to listen for clicks on button 1
 
 button1.addEventListener('click', () =>{
-//reset shells
-console.log('clickkkkkkkkks!')
+//validate 
+console.log('clickkkkkkkkks!');
+  //reset shells
+const randomShell = Math.ceil(Math.random() * 3);
+//validate 
+console.log(randomShell);
 //decide which shell chick is under 
-
+if (randomShell === 1){
+  chick1.classList.remove('chick');
+  wins++;
+}
 //if random Shell = 1 then increment value of wins
 
 //else increment the losses
 
 //update the wins/ loss/ totals
-
+winSpan.textContent = wins;
+lossesSpan.textContent = losses;
+totalSpan.textContent = wins + losses;
 });
 
 

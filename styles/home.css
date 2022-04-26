@@ -8,7 +8,7 @@ img {
 }
 
 #chick-img {
-    width: 100px;
+    width: 400px;
 }
 
 .shells {
@@ -26,14 +26,7 @@ img {
     position: relative;
 }
 
-.shell img {
-    
-}
 .chick {
     display: none;
-    transition: ease-in-out;
 }
 
-.reveal {
-    display: block;
-}
