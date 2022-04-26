@@ -23,7 +23,11 @@ const totalSpan = document.getElementById('total');
 let wins = 0;
 let losses = 0;
 
+//sets page to ball hidden 
 
+shell1.classList.remove('reveal');
+shell2.classList.remove('reveal');
+shell3.classList.remove('reveal');
 
 // set event listeners to listen for clicks on button 1
 
