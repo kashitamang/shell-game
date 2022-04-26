@@ -106,7 +106,7 @@ button3.addEventListener('click', () => {
         shell1.classList.add('reveal');
         losses++;
     }
-  //update the wins/ loss/ totals
+  //update the wins/ loss/ totals "display results function"
     winSpan.textContent = wins;
     lossesSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
