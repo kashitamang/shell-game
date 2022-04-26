@@ -2,9 +2,9 @@
 
 //all shells
 
-const chick1 = document.getElementById('chick-1');
-const chick2 = document.getElementById('chick-2');
-const chick3 = document.getElementById('chick-3');
+const shell1 = document.getElementById('shell-1');
+const shell2 = document.getElementById('shell-2');
+const shell3 = document.getElementById('shell-3');
 
 //all buttons 
 
