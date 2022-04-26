@@ -3,13 +3,8 @@ h4 {
     text-align: center;
 }
 
-img {
-    width: 200px;
-}
 
-#chick-img {
-    width: 100px;
-}
+
 .shells {
     margin-top: 40px;
     display: flex;
@@ -25,7 +20,23 @@ img {
     position: relative;
 }
 
-.chick {
-    display: none;
+.shell img {
+    width: 200px;
+
+}
+
+.shell.reveal img {
+    transform: translateY(-70px);
+    z-index: 20;
+}
+
+.ball {
+    z-index: 10;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 120px;
+    background-color: red;
+    border radius: 50%;
 }
 
