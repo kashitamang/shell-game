@@ -1,3 +1,54 @@
+Todo:
+
+✅ draw wireframe
+✅lay out html document and add HTML elements: shells, buttons, text, divs, spans, and balls under each shell 
+✅style the css to reveal the ball under each shell using a 'reveal class'
+-add WIGGLES to app.js
+-validate and test 
+-add extra styling 
+
+Grab Dom Elements: 
+Shell 1, 2, 3, button 1, 2, 3, wins, losses 
+
+Add Event Listener and Let State: 
+-add event listener on click to perform this function 
+-add needed functions added to each shell click
+  -if shell is clicked: 
+    -reset 'reveal class' in case this is not users first round
+    -add function: generate random number in between 1-3 using mat.random and math.Ceil and multiplying by 3
+    -if the random number matches shell #: enable the 'reveal' class and increment wins by 1 using ++ operator 
+    -else: random shell 2 reveals and increments 1 on losses
+    -else random shell 3 increments 1 on losses
+    -update the text.content of win, loss, and total spans (derived from total of wins, and losses) for the state to match the view 
+
+
+W I G G L E
+grab dom elements 
+-shell 1, 2, and 3 
+-buttons 1, 2, and 3
+-wins total number
+-losses total number
+-totals total number 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## The Golden Rule: 
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
